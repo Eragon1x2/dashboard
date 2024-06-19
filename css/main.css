@@ -591,13 +591,14 @@ body {
 }
 .modal {
     top: 0;
-    position: fixed;
+    position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 100lvh;
     background-color: white;
     z-index: 999999;
     overflow: hidden;
     overflow-y: hidden;
+    padding-bottom: 40px;
 }
 .modal_wrapper {
     display: flex;
